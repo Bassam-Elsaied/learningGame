@@ -16,7 +16,7 @@ export default function Summary({ score }) {
       {/* عنصر الصوت دايمًا موجود، لكن مصدره يتغير حسب النتيجة */}
       <audio
         ref={winSound}
-        src={score > 6 ? "/finall.mp3" : "/game_over_yeah.mp3"}
+        src={score > 6 ? "/finall.mp3" : "/game_over.mp3"}
       />
 
       {score > 6 ? (
